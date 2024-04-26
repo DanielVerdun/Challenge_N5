@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'infraccionesApp',#app
     'infraccionesAPI',#app
+    'users',#app
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +126,36 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Agregamos configuracion para mapeo de logs
+#--------------------------------------------
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'django.log',
+            'formatter': 'custom',
+        },
+
+    },
+    'formatters': {
+        'custom': {
+            'format': '%(asctime)s - %(threadName)s - %(processName)s - %(name)s - %(levelname)s - %(message)s',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
+
+
+
+# Custom user model - authentication
+AUTH_USER_MODEL = "users.User"

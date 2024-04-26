@@ -9,10 +9,26 @@ from infraccionesApp.models import Persona,Vehiculo
 from .serializers import InfraccionSerializer
 from rest_framework.response import Response # type: ignore
 from django.shortcuts import get_object_or_404
+import logging
 
+
+# Importamos para implementar autenticación
+from rest_framework.permissions import IsAuthenticated # type: ignore
+from rest_framework.authentication import TokenAuthentication # type: ignore
+
+# Importamos para manejar los token
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token # type: ignore
+from .serializers import TokenSerializer
+
+logger = logging.getLogger(__name__)
 
 class CargarInfraccion(APIView):
+    authentication_classes = [TokenAuthentication]  # Autenticación mediante token
+    permission_classes = [IsAuthenticated]  # Solo usuarios autenticados pueden acceder a esta vista
+
     def post(self, request):
+
         # Obtiene la fecha y hora actual para facilitar la carga a los oficiales
         timestamp_actual = datetime.now()
 

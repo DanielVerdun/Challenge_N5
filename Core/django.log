@@ -1,0 +1,155 @@
+2024-04-26 15:01:50,372 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 15:01:59,685 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/ HTTP/1.1" 302 0
+2024-04-26 15:01:59,723 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+2024-04-26 15:02:19,211 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-04-26 15:02:19,245 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/ HTTP/1.1" 200 8109
+2024-04-26 15:02:32,789 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/add/ HTTP/1.1" 200 11428
+2024-04-26 15:02:32,829 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:02:42,393 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/persona/add/ HTTP/1.1" 302 0
+2024-04-26 15:02:42,438 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10355
+2024-04-26 15:02:42,524 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:03:58,947 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13750
+2024-04-26 15:03:58,982 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:04:06,853 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 302 0
+2024-04-26 15:04:06,880 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10343
+2024-04-26 15:04:06,966 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:04:21,148 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13750
+2024-04-26 15:04:21,180 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:04:33,968 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 302 0
+2024-04-26 15:04:33,993 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10561
+2024-04-26 15:04:34,081 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:04:43,635 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/users/user/ HTTP/1.1" 200 10055
+2024-04-26 15:04:43,666 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:04:56,595 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 9317
+2024-04-26 15:04:56,623 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-04-26 15:05:00,842 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10134
+2024-04-26 15:05:00,872 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:07:21,165 - Thread-2 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 151
+2024-04-26 15:21:43,117 - MainThread - MainProcess - django.utils.autoreload - INFO - /home/dverdun/Documentos/Proyectos_dani/Challenge_N5/Core/infraccionesAPI/views.py changed, reloading.
+2024-04-26 15:21:43,739 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 15:24:10,854 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 15:24:18,554 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 151
+2024-04-26 15:27:28,004 - MainThread - MainProcess - django.utils.autoreload - INFO - /home/dverdun/Documentos/Proyectos_dani/Challenge_N5/Core/infraccionesAPI/serializers.py changed, reloading.
+2024-04-26 15:27:28,598 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 15:37:46,718 - MainThread - MainProcess - django.utils.autoreload - INFO - /home/dverdun/Documentos/Proyectos_dani/Challenge_N5/Core/infraccionesAPI/views.py changed, reloading.
+2024-04-26 15:37:47,335 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 15:42:49,789 - MainThread - MainProcess - django.utils.autoreload - INFO - /home/dverdun/Documentos/Proyectos_dani/Challenge_N5/Core/infraccionesAPI/views.py changed, reloading.
+2024-04-26 15:42:50,349 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 15:42:58,721 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:42:58,726 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:44:41,875 - Thread-1 - MainProcess - django.request - WARNING - Bad Request: /api/v1.0/authentication/token/
+2024-04-26 15:44:41,876 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/authentication/token/ HTTP/1.1" 400 46
+2024-04-26 15:46:45,155 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/users/user/ HTTP/1.1" 200 10055
+2024-04-26 15:46:45,177 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2024-04-26 15:46:45,190 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-04-26 15:46:45,194 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2024-04-26 15:46:45,194 - Thread-7 - MainProcess - django.server - INFO - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,201 - Thread-6 - MainProcess - django.server - INFO - "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2024-04-26 15:46:45,202 - Thread-5 - MainProcess - django.server - INFO - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-04-26 15:46:45,207 - Thread-6 - MainProcess - django.server - INFO - "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,207 - Thread-7 - MainProcess - django.server - INFO - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,208 - Thread-5 - MainProcess - django.server - INFO - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,213 - Thread-3 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 15:46:45,216 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,224 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,239 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,253 - Thread-7 - MainProcess - django.server - INFO - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,286 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,307 - Thread-7 - MainProcess - django.server - INFO - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,313 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2024-04-26 15:46:45,319 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-04-26 15:46:45,321 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2024-04-26 15:47:00,244 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-26 15:48:33,220 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:48:33,221 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:48:53,541 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:48:53,541 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:50:03,397 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:50:03,398 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:50:54,278 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:50:54,279 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:51:28,427 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:51:28,432 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:53:37,229 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:53:37,230 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:54:35,856 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:54:35,857 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:55:23,556 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-26 15:55:37,865 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:55:37,865 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:55:42,008 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:55:42,009 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 15:57:34,505 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:57:34,506 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/?token%20=03d61afb392593b3206cf46849fbcf78267addfa HTTP/1.1" 401 58
+2024-04-26 15:58:01,760 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 15:58:01,761 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/?token=03d61afb392593b3206cf46849fbcf78267addfa HTTP/1.1" 401 58
+2024-04-26 16:01:15,548 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:01:15,554 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:01:34,390 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-26 16:01:54,736 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:01:54,741 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:03:56,979 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:03:56,980 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:04:00,503 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:04:00,504 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:04:08,624 - Thread-8 - MainProcess - django.server - INFO - "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 10325
+2024-04-26 16:04:08,694 - Thread-8 - MainProcess - django.server - INFO - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-04-26 16:07:31,944 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:07:31,945 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:07:41,922 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:07:41,923 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:07:48,453 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-26 16:07:58,370 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-26 16:08:27,835 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:08:27,837 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:10:44,187 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:10:44,188 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:13:12,506 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:13:12,507 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:13:17,873 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:13:17,874 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:18:44,715 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:18:44,716 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:20:46,510 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:20:46,510 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 27
+2024-04-26 16:21:05,789 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-26 16:21:15,641 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:21:15,644 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 27
+2024-04-26 16:22:42,046 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:22:42,046 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 27
+2024-04-26 16:22:57,030 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/authtoken/tokenproxy/1/change/ HTTP/1.1" 200 10993
+2024-04-26 16:22:57,062 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2024-04-26 16:22:57,067 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2024-04-26 16:22:57,072 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2024-04-26 16:22:57,072 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-26 16:22:57,078 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2024-04-26 16:22:57,079 - Thread-5 - MainProcess - django.server - INFO - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-04-26 16:22:57,127 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2024-04-26 16:23:00,778 - Thread-3 - MainProcess - django.server - INFO - "GET /admin/authtoken/tokenproxy/1/delete/ HTTP/1.1" 200 8997
+2024-04-26 16:23:00,813 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2024-04-26 16:23:02,380 - Thread-3 - MainProcess - django.server - INFO - "POST /admin/authtoken/tokenproxy/1/delete/ HTTP/1.1" 302 0
+2024-04-26 16:23:02,425 - Thread-3 - MainProcess - django.server - INFO - "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 9505
+2024-04-26 16:23:02,523 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2024-04-26 16:23:19,678 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-26 16:23:29,847 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:23:29,849 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 27
+2024-04-26 16:23:45,566 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:23:45,567 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:23:58,987 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:23:58,988 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 27
+2024-04-26 16:24:10,362 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:24:10,363 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 27
+2024-04-26 16:24:54,787 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:24:54,787 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:25:11,352 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:25:11,352 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:25:22,938 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:25:22,939 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:25:39,886 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:25:39,887 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:25:43,841 - Thread-3 - MainProcess - django.server - INFO - "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 10325
+2024-04-26 16:27:00,701 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:27:00,701 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:27:22,499 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
+2024-04-26 16:27:22,500 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
+2024-04-26 16:30:29,078 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 151

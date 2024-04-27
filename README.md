@@ -39,96 +39,96 @@ El Sistema de Registro de Infracciones de Tránsito es una plataforma integral d
   - En desarrollo
 
 ## Estructura del proyecto
-.
-├── Core
-│   ├── asgi.py
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-38.pyc
-│   │   ├── settings.cpython-38.pyc
-│   │   ├── urls.cpython-38.pyc
-│   │   └── wsgi.cpython-38.pyc
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── db.sqlite3
-├── django.log
-├── docker-compose.yml
-├── Dockerfile
-├── infraccionesAPI
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-38.pyc
-│   │       └── __init__.cpython-38.pyc
-│   ├── models.py
-│   ├── __pycache__
-│   │   ├── admin.cpython-38.pyc
-│   │   ├── apps.cpython-38.pyc
-│   │   ├── __init__.cpython-38.pyc
-│   │   ├── models.cpython-38.pyc
-│   │   ├── serializers.cpython-38.pyc
-│   │   ├── urls.cpython-38.pyc
-│   │   └── views.cpython-38.pyc
-│   ├── serializers.py
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-├── infraccionesApp
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── 0001_initial.cpython-38.pyc
-│   │       ├── 0002_alter_oficial_id.cpython-38.pyc
-│   │       ├── 0002_alter_persona_email.cpython-38.pyc
-│   │       ├── 0002_alter_vehiculo_options.cpython-38.pyc
-│   │       ├── 0002_remove_infraccion_email.cpython-38.pyc
-│   │       ├── 0002_rename_vehiculo_infraccion_placa_patente.cpython-38.pyc
-│   │       ├── 0003_alter_infraccion_placa_patente.cpython-38.pyc
-│   │       ├── 0003_alter_oficial_id.cpython-38.pyc
-│   │       ├── 0003_alter_persona_email.cpython-38.pyc
-│   │       ├── 0003_remove_infraccion_vehiculo.cpython-38.pyc
-│   │       ├── 0004_alter_infraccion_email.cpython-38.pyc
-│   │       ├── 0004_alter_infraccion_placa_patente.cpython-38.pyc
-│   │       ├── 0005_alter_infraccion_placa_patente.cpython-38.pyc
-│   │       └── __init__.cpython-38.pyc
-│   ├── models.py
-│   ├── __pycache__
-│   │   ├── admin.cpython-38.pyc
-│   │   ├── apps.cpython-38.pyc
-│   │   ├── __init__.cpython-38.pyc
-│   │   └── models.cpython-38.pyc
-│   ├── tests.py
-│   └── views.py
-├── manage.py
-├── requirements.txt
-└── users
-    ├── admin.py
-    ├── apps.py
-    ├── __init__.py
-    ├── migrations
-    │   ├── 0001_initial.py
+    .
+    ├── Core
+    │   ├── asgi.py
     │   ├── __init__.py
-    │   └── __pycache__
-    │       ├── 0001_initial.cpython-38.pyc
-    │       └── __init__.cpython-38.pyc
-    ├── models.py
-    ├── __pycache__
-    │   ├── admin.cpython-38.pyc
-    │   ├── apps.cpython-38.pyc
-    │   ├── __init__.cpython-38.pyc
-    │   ├── models.cpython-38.pyc
-    │   ├── serializers.cpython-38.pyc
-    │   ├── urls.cpython-38.pyc
-    │   └── views.cpython-38.pyc
-    ├── serializers.py
-    ├── tests.py
-    ├── urls.py
-    └── views.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-38.pyc
+    │   │   ├── settings.cpython-38.pyc
+    │   │   ├── urls.cpython-38.pyc
+    │   │   └── wsgi.cpython-38.pyc
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    ├── db.sqlite3
+    ├── django.log
+    ├── docker-compose.yml
+    ├── Dockerfile
+    ├── infraccionesAPI
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── __init__.py
+    │   ├── migrations
+    │   │   ├── __init__.py
+    │   │   └── __pycache__
+    │   │       ├── 0001_initial.cpython-38.pyc
+    │   │       └── __init__.cpython-38.pyc
+    │   ├── models.py
+    │   ├── __pycache__
+    │   │   ├── admin.cpython-38.pyc
+    │   │   ├── apps.cpython-38.pyc
+    │   │   ├── __init__.cpython-38.pyc
+    │   │   ├── models.cpython-38.pyc
+    │   │   ├── serializers.cpython-38.pyc
+    │   │   ├── urls.cpython-38.pyc
+    │   │   └── views.cpython-38.pyc
+    │   ├── serializers.py
+    │   ├── tests.py
+    │   ├── urls.py
+    │   └── views.py
+    ├── infraccionesApp
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── __init__.py
+    │   ├── migrations
+    │   │   ├── 0001_initial.py
+    │   │   ├── __init__.py
+    │   │   └── __pycache__
+    │   │       ├── 0001_initial.cpython-38.pyc
+    │   │       ├── 0002_alter_oficial_id.cpython-38.pyc
+    │   │       ├── 0002_alter_persona_email.cpython-38.pyc
+    │   │       ├── 0002_alter_vehiculo_options.cpython-38.pyc
+    │   │       ├── 0002_remove_infraccion_email.cpython-38.pyc
+    │   │       ├── 0002_rename_vehiculo_infraccion_placa_patente.cpython-38.pyc
+    │   │       ├── 0003_alter_infraccion_placa_patente.cpython-38.pyc
+    │   │       ├── 0003_alter_oficial_id.cpython-38.pyc
+    │   │       ├── 0003_alter_persona_email.cpython-38.pyc
+    │   │       ├── 0003_remove_infraccion_vehiculo.cpython-38.pyc
+    │   │       ├── 0004_alter_infraccion_email.cpython-38.pyc
+    │   │       ├── 0004_alter_infraccion_placa_patente.cpython-38.pyc
+    │   │       ├── 0005_alter_infraccion_placa_patente.cpython-38.pyc
+    │   │       └── __init__.cpython-38.pyc
+    │   ├── models.py
+    │   ├── __pycache__
+    │   │   ├── admin.cpython-38.pyc
+    │   │   ├── apps.cpython-38.pyc
+    │   │   ├── __init__.cpython-38.pyc
+    │   │   └── models.cpython-38.pyc
+    │   ├── tests.py
+    │   └── views.py
+    ├── manage.py
+    ├── requirements.txt
+    └── users
+        ├── admin.py
+        ├── apps.py
+        ├── __init__.py
+        ├── migrations
+        │   ├── 0001_initial.py
+        │   ├── __init__.py
+        │   └── __pycache__
+        │       ├── 0001_initial.cpython-38.pyc
+        │       └── __init__.cpython-38.pyc
+        ├── models.py
+        ├── __pycache__
+        │   ├── admin.cpython-38.pyc
+        │   ├── apps.cpython-38.pyc
+        │   ├── __init__.cpython-38.pyc
+        │   ├── models.cpython-38.pyc
+        │   ├── serializers.cpython-38.pyc
+        │   ├── urls.cpython-38.pyc
+        │   └── views.cpython-38.pyc
+        ├── serializers.py
+        ├── tests.py
+        ├── urls.py
+        └── views.py

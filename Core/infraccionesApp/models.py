@@ -32,6 +32,7 @@ class Vehiculo(models.Model):
         return self.placa_patente
 
 class Oficial(models.Model):
+    id = models.AutoField(primary_key=True)
     nombre = models.CharField(max_length=20)
     created = models.DateField(auto_now_add=True)
     updated = models.DateField(auto_now=True)
@@ -41,7 +42,7 @@ class Oficial(models.Model):
         verbose_name_plural = "oficiales"
 
     def __str__(self):
-        return self.nombre
+        return str(self.id)
 
 class Infraccion(models.Model):
     placa_patente = models.CharField(max_length=20)

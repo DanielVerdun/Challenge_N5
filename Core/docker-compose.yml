@@ -1,0 +1,11 @@
+services:
+  # Servicio para la aplicación web Django
+  app:
+    image: mergretcode/challenge_n5-app:latest
+    build: .
+    container_name: django
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"

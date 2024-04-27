@@ -153,3 +153,220 @@
 2024-04-26 16:27:22,499 - Thread-1 - MainProcess - django.request - WARNING - Unauthorized: /api/v1.0/cargar_infraccion/
 2024-04-26 16:27:22,500 - Thread-1 - MainProcess - django.server - WARNING - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 401 58
 2024-04-26 16:30:29,078 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 151
+2024-04-27 00:19:51,759 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-27 00:19:56,757 - Thread-1 - MainProcess - django.request - WARNING - Not Found: /
+2024-04-27 00:19:56,758 - Thread-1 - MainProcess - django.server - WARNING - "GET / HTTP/1.1" 404 2290
+2024-04-27 00:19:56,849 - Thread-1 - MainProcess - django.request - WARNING - Not Found: /favicon.ico
+2024-04-27 00:19:56,849 - Thread-1 - MainProcess - django.server - WARNING - "GET /favicon.ico HTTP/1.1" 404 2341
+2024-04-27 00:20:05,580 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/ HTTP/1.1" 200 9318
+2024-04-27 00:20:05,604 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2024-04-27 00:20:05,613 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-04-27 00:20:05,620 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-04-27 00:20:05,624 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-04-27 00:20:05,624 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2024-04-27 00:20:05,625 - Thread-5 - MainProcess - django.server - INFO - "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2024-04-27 00:20:05,626 - Thread-6 - MainProcess - django.server - INFO - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-04-27 00:20:05,662 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-04-27 00:20:05,666 - Thread-5 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2024-04-27 00:20:05,667 - Thread-6 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2024-04-27 00:20:14,943 - Thread-6 - MainProcess - django.server - INFO - "GET /admin/users/user/ HTTP/1.1" 200 10055
+2024-04-27 00:20:14,982 - Thread-6 - MainProcess - django.server - INFO - "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2024-04-27 00:20:14,985 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2024-04-27 00:20:14,988 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2024-04-27 00:20:14,991 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2024-04-27 00:20:14,992 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2024-04-27 00:20:14,992 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2024-04-27 00:20:14,993 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2024-04-27 00:20:15,000 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2024-04-27 00:20:15,000 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2024-04-27 00:20:15,005 - Thread-5 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:20:15,056 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2024-04-27 00:20:15,084 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2024-04-27 00:20:21,254 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/ HTTP/1.1" 200 9318
+2024-04-27 00:20:25,562 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 8966
+2024-04-27 00:20:25,607 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:20:27,589 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:20:27,615 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2024-04-27 00:20:27,623 - Thread-3 - MainProcess - django.server - INFO - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2024-04-27 00:20:27,628 - Thread-4 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:20:27,634 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2024-04-27 00:20:27,669 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-04-27 00:20:36,153 - Thread-2 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/oficial/add/ HTTP/1.1" 302 0
+2024-04-27 00:20:36,190 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10337
+2024-04-27 00:20:36,264 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:20:36,410 - Thread-2 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2024-04-27 00:20:42,719 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:20:42,758 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:20:53,163 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10126
+2024-04-27 00:20:53,196 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:24:17,733 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10350
+2024-04-27 00:24:17,765 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:24:22,351 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13750
+2024-04-27 00:24:22,384 - Thread-4 - MainProcess - django.server - INFO - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2024-04-27 00:24:22,389 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:24:33,751 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/add/ HTTP/1.1" 200 11428
+2024-04-27 00:24:33,783 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:24:51,128 - Thread-2 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/persona/add/ HTTP/1.1" 302 0
+2024-04-27 00:24:51,158 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10584
+2024-04-27 00:24:51,240 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:24:58,246 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13799
+2024-04-27 00:24:58,283 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:26:13,377 - Thread-2 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 302 0
+2024-04-27 00:26:13,420 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10778
+2024-04-27 00:26:13,504 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:26:27,784 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/add/ HTTP/1.1" 200 11428
+2024-04-27 00:26:27,816 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:26:37,076 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:26:37,113 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:28:29,154 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-27 00:28:31,888 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10126
+2024-04-27 00:28:31,934 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:28:33,081 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/1/change/ HTTP/1.1" 200 11077
+2024-04-27 00:28:33,127 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:28:34,354 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/1/delete/ HTTP/1.1" 200 8934
+2024-04-27 00:28:34,381 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2024-04-27 00:28:35,584 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/oficial/1/delete/ HTTP/1.1" 302 0
+2024-04-27 00:28:35,618 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 9124
+2024-04-27 00:28:35,711 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:33:02,932 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-27 00:33:11,958 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/ HTTP/1.1" 302 0
+2024-04-27 00:33:12,016 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4178
+2024-04-27 00:33:12,092 - Thread-1 - MainProcess - django.server - INFO - "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2024-04-27 00:33:18,986 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4340
+2024-04-27 00:33:30,288 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-04-27 00:33:30,329 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/ HTTP/1.1" 200 8109
+2024-04-27 00:33:35,034 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/add/ HTTP/1.1" 200 11428
+2024-04-27 00:33:35,082 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:33:42,021 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/persona/add/ HTTP/1.1" 302 0
+2024-04-27 00:33:42,095 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10355
+2024-04-27 00:33:42,180 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:33:47,974 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/add/ HTTP/1.1" 200 11428
+2024-04-27 00:33:48,019 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:33:57,149 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/persona/add/ HTTP/1.1" 302 0
+2024-04-27 00:33:57,175 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10584
+2024-04-27 00:33:57,248 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:34:00,650 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13799
+2024-04-27 00:34:00,681 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:34:19,725 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 302 0
+2024-04-27 00:34:19,751 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10343
+2024-04-27 00:34:19,838 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:34:23,984 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13799
+2024-04-27 00:34:24,024 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:34:52,277 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 302 0
+2024-04-27 00:34:52,316 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10561
+2024-04-27 00:34:52,411 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:35:01,595 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13799
+2024-04-27 00:35:01,630 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:35:24,535 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 302 0
+2024-04-27 00:35:24,562 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10778
+2024-04-27 00:35:24,649 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:35:29,810 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 8966
+2024-04-27 00:35:29,844 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:35:31,804 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:35:31,840 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:35:37,597 - Thread-1 - MainProcess - django.request - ERROR - Internal Server Error: /admin/infraccionesApp/oficial/add/
+Traceback (most recent call last):
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/dverdun/Documentos/Proyectos_dani/Challenge_N5/env/lib/python3.8/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+TypeError: __str__ returned non-string (type int)
+2024-04-27 00:35:37,605 - Thread-1 - MainProcess - django.server - ERROR - "POST /admin/infraccionesApp/oficial/add/ HTTP/1.1" 500 113702
+2024-04-27 00:35:55,519 - MainThread - MainProcess - django.utils.autoreload - INFO - /home/dverdun/Documentos/Proyectos_dani/Challenge_N5/Core/infraccionesApp/models.py changed, reloading.
+2024-04-27 00:35:56,311 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-27 00:36:06,851 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:36:09,435 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/oficial/add/ HTTP/1.1" 302 0
+2024-04-27 00:36:09,496 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10323
+2024-04-27 00:36:09,578 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:36:19,949 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:36:19,983 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:36:37,349 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/oficial/add/ HTTP/1.1" 302 0
+2024-04-27 00:36:37,388 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10536
+2024-04-27 00:36:37,469 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:36:41,042 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/2/change/ HTTP/1.1" 200 11056
+2024-04-27 00:36:41,086 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:36:56,178 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/oficial/2/change/ HTTP/1.1" 302 0
+2024-04-27 00:36:56,216 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10538
+2024-04-27 00:36:56,309 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:04,920 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/add/ HTTP/1.1" 200 10805
+2024-04-27 00:37:04,954 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:10,906 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/oficial/add/ HTTP/1.1" 302 0
+2024-04-27 00:37:10,952 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10747
+2024-04-27 00:37:11,047 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:15,102 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13799
+2024-04-27 00:37:15,150 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:19,842 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10543
+2024-04-27 00:37:22,033 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 00:37:22,066 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:23,517 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10363
+2024-04-27 00:37:23,552 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:25,345 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/oficial/ HTTP/1.1" 200 10543
+2024-04-27 00:37:25,381 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:27,015 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10363
+2024-04-27 00:37:27,052 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:32,358 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/add/ HTTP/1.1" 200 11428
+2024-04-27 00:37:32,389 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:43,372 - Thread-1 - MainProcess - django.server - INFO - "POST /admin/infraccionesApp/persona/add/ HTTP/1.1" 302 0
+2024-04-27 00:37:43,400 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/persona/ HTTP/1.1" 200 10812
+2024-04-27 00:37:43,475 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 00:37:52,047 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/users/user/ HTTP/1.1" 200 10055
+2024-04-27 00:37:52,105 - Thread-1 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:14:30,126 - MainThread - MainProcess - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-04-27 01:15:20,945 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/authentication/token/ HTTP/1.1" 200 52
+2024-04-27 01:16:09,495 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:16:09,525 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:16:17,843 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/3/change/ HTTP/1.1" 200 14149
+2024-04-27 01:16:17,880 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:16:51,888 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 151
+2024-04-27 01:17:39,395 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/add/ HTTP/1.1" 200 13848
+2024-04-27 01:17:39,444 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:43,006 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:17:43,048 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:47,476 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/1/change/ HTTP/1.1" 200 14145
+2024-04-27 01:17:47,507 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:51,095 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:17:51,134 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:52,527 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/2/change/ HTTP/1.1" 200 14149
+2024-04-27 01:17:52,567 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:54,367 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:17:54,398 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:55,489 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/1/change/ HTTP/1.1" 200 14145
+2024-04-27 01:17:55,523 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:57,301 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:17:57,339 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:17:58,917 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/3/change/ HTTP/1.1" 200 14149
+2024-04-27 01:17:58,949 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:18:24,815 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 143
+2024-04-27 01:18:38,577 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:18:38,617 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:18:42,093 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/2/change/ HTTP/1.1" 200 14149
+2024-04-27 01:18:42,129 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:20:21,211 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 140
+2024-04-27 01:20:32,134 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/ HTTP/1.1" 200 10567
+2024-04-27 01:20:33,745 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/infraccionesApp/vehiculo/1/change/ HTTP/1.1" 200 14145
+2024-04-27 01:20:33,782 - Thread-2 - MainProcess - django.server - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2024-04-27 01:21:27,823 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/cargar_infraccion/ HTTP/1.1" 201 151
+2024-04-27 01:22:25,377 - Thread-1 - MainProcess - django.request - WARNING - Method Not Allowed: /api/v1.0/generar_informe/
+2024-04-27 01:22:25,378 - Thread-1 - MainProcess - django.server - WARNING - "GET /api/v1.0/generar_informe/ HTTP/1.1" 405 40
+2024-04-27 01:22:32,379 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/generar_informe/ HTTP/1.1" 200 294
+2024-04-27 01:23:04,741 - Thread-1 - MainProcess - django.server - INFO - "POST /api/v1.0/generar_informe/ HTTP/1.1" 200 297

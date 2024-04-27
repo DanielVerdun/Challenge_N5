@@ -137,7 +137,7 @@ Para podes ejecutar y probar las funcionalidades del proyecto se detallan los si
 
   1. Descargar la imagen docker de la siguiente url: https://hub.docker.com/repository/docker/mergretcode/challenge_n5-app/tags
   2. Descargar desde la terminal:
-        docker pull mergretcode/challenge_n5-app:latest
+          docker pull mergretcode/challenge_n5-app:latest
   3. Ejecutar:
         docker run -p 8000:8000 mergretcode/challenge_n5-app:latest
   4. Una vez que este corriendo el servidor podremos ingresar a aplicación web:
